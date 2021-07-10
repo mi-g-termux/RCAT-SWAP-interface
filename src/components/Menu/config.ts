@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://pancakeswap.finance/',
+    href: 'https://revitalcat.com',
   },
   {
     label: 'Trade',
@@ -21,77 +21,77 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Exchange',
-        href: 'https://exchange.pancakeswap.finance/#/swap',
+        href: 'https://pancakeswap.finance/#/swap',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.pancakeswap.finance/#/pool',
+        href: 'https://pancakeswap.finance/#/pool',
       },
-      {
-        label: 'V1 Liquidity (Old)',
-        href: '/pool',
+     // {
+      //  label: 'V1 Liquidity (Old)',
+       // href: '/pool',
       },
     ],
   },
-  {
-    label: 'Farms',
-    icon: 'FarmIcon',
-    href: 'https://pancakeswap.finance/farms',
+   // {
+     // label: 'Farms',
+     // icon: 'FarmIcon',
+     // href: 'https://pancakeswap.finance/farms',
+  },
+   // {
+    //  label: 'Pools',
+     // icon: 'PoolIcon',
+    //  href: 'https://pancakeswap.finance/pools',
   },
   {
-    label: 'Pools',
-    icon: 'PoolIcon',
-    href: 'https://pancakeswap.finance/pools',
-  },
-  {
-    label: 'Prediction (BETA)',
+    //  label: 'Prediction (BETA)',
     icon: 'PredictionsIcon',
-    href: 'https://pancakeswap.finance/prediction',
+    href: 'https://rcatswap.finance/prediction',
   },
   {
-    label: 'Lottery',
-    icon: 'TicketIcon',
-    href: 'https://pancakeswap.finance/lottery',
+      //label: 'Lottery',
+    //  icon: 'TicketIcon',
+      //href: 'https://pancakeswap.finance/lottery',
   },
   {
-    label: 'Collectibles',
-    icon: 'NftIcon',
-    href: 'https://pancakeswap.finance/nft',
+    //  label: 'Collectibles',
+    //  icon: 'NftIcon',
+   //   href: 'https://pancakeswap.finance/nft',
   },
   {
-    label: 'Team Battle',
-    icon: 'TeamBattleIcon',
-    href: 'https://pancakeswap.finance/competition',
+    //  label: 'Team Battle',
+     // icon: 'TeamBattleIcon',
+   //   href: 'https://pancakeswap.finance/competition',
   },
   {
-    label: 'Teams & Profile',
-    icon: 'GroupsIcon',
-    items: [
+     // label: 'Teams & Profile',
+     // icon: 'GroupsIcon',
+   //   items: [
       {
-        label: 'Leaderboard',
-        href: 'https://pancakeswap.finance/teams',
+        //  label: 'Leaderboard',
+        //  href: 'https://pancakeswap.finance/teams',
       },
       {
-        label: 'Task Center',
-        href: 'https://pancakeswap.finance/profile/tasks',
+      //    label: 'Task Center',
+       //   href: 'https://pancakeswap.finance/profile/tasks',
       },
       {
-        label: 'Your Profile',
-        href: 'https://pancakeswap.finance/profile',
+      //    label: 'Your Profile',
+      //    href: 'https://pancakeswap.finance/profile',
       },
     ],
   },
   {
-    label: 'Info',
-    icon: 'InfoIcon',
-    items: [
+   //   label: 'Info',
+    //  icon: 'InfoIcon',
+   //   items: [
       {
-        label: 'Overview',
-        href: 'https://pancakeswap.info',
+       //   label: 'Overview',
+        //  href: 'https://pancakeswap.info',
       },
       {
-        label: 'Tokens',
-        href: 'https://pancakeswap.info/tokens',
+         // label: 'Tokens',
+         // href: 'https://pancakeswap.info/tokens',
       },
       {
         label: 'Pairs',
@@ -113,16 +113,16 @@ const config: MenuEntry[] = [
     icon: 'MoreIcon',
     items: [
       {
-        label: 'Contact',
-        href: 'https://docs.pancakeswap.finance/contact-us',
+    //      label: 'Contact',
+      //    href: 'https://docs.pancakeswap.finance/contact-us',
+      }
+      {
+         // label: 'Voting'
+        //  href: 'https://voting.pancakeswap.finance',
       },
       {
-        label: 'Voting',
-        href: 'https://voting.pancakeswap.finance',
-      },
-      {
-        label: 'Github',
-        href: 'https://github.com/pancakeswap',
+       label: 'Github',
+        href: 'https://github.com/RCAT',
       },
       {
         label: 'Docs',
@@ -130,14 +130,15 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Blog',
-        href: 'https://pancakeswap.medium.com',
+        href: 'https://rcatSWAP.medium.com',
       },
       {
-        label: 'Merch',
-        href: 'https://pancakeswap.creator-spring.com/',
+    //      label: 'Merch',
+       //   href: 'https://pancakeswap.creator-spring.com/',
       },
     ],
   },
 ]
 
 export default config
+
